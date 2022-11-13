@@ -1,0 +1,96 @@
+/* /* Screen Size */
+/* x small                            <576px
+small                sm                 >_ 576px (for mobile)
+medium               md                 >_ 768px
+large                lg                 >_ 992px (tab)
+extra large          xL                 >_ 1200px
+extra extra large    xxL                >_ 1400px  */
+
+
+/* /* Screen Size for default width */
+/* x small                              <100%
+small                sm                 >_ 540px (for mobile)
+medium               md                 >_ 720px
+large                lg                 >_ 960px (tab)
+extra large          xL                 >_ 1140px
+extra extra large    xxL                >_ 1320px  */
+
+
+
+/* when u use breakpoint then select(.child )
+  when u use container,select (div)
+*/
+/* div{
+    border: 5px solid var(--bs-blue) ;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+} */
+
+
+
+/* grid design */
+/* .row{
+    margin: 10px;
+}
+.row div div{
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    border: 3px solid black;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+} */
+
+
+/* column design */
+/* .row{
+    margin-bottom: 20px;
+    background-color: rgb(176, 39, 73);
+    height: 200px;
+   
+
+}
+.row div {
+    background: rgb(140, 27, 27);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(80, 22, 22);
+}  */
+
+
+/* gutter */
+/* .row{
+    margin-bottom: 20px;
+    background-color: rgb(208, 106, 131);
+    height: 200px;
+    padding: 10px; 
+
+}
+.row div div {
+    background: rgb(140, 27, 27);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(80, 22, 22);
+} */
+
+
+
+/* login form */
+
+body{
+    background: url(image/img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.form-login{
+    background-color: rgba(236,240,241,0.35);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 10px;
+
+}
